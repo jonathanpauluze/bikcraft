@@ -174,3 +174,25 @@ p {
 .call-to-action p {
   margin-bottom: 20px;
 }
+
+/* Portfolio */
+.portfolio {
+  padding: 40px 0;
+  background: #000;
+}
+
+.portfolio .subtitulo {
+  color: #FEC63E;
+}
+
+.portfolio .subtitulo::after {
+  background: #FEC63E;
+}
+
+.portfolio_lista li:last-child {
+  margin-top: 20px;
+}
+
+.portfolio .call-to-action p {
+  color: #fff;
+}
