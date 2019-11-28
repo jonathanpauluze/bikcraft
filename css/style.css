@@ -266,3 +266,60 @@ img {
 .quebra .quote-externo {
   max-width: 400px;
 }
+
+/* Footer */
+.footer {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: bold;
+  color: #FEC63E;
+}
+
+.footer h3::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #FEC63E;
+  margin: 6px 0 12px 0;
+}
+
+.footer_historia {
+  padding-right: 40px;
+}
+
+.footer_contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", sans-serif;
+}
+
+.footer_social ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer_social ul li a {
+  border: 3px solid #FEC63E;
+  display: block;
+  padding: 10px;
+}
+
+.footer_social ul li a:hover {
+  border-color: #fff;
+}
+
+.copyright {
+  width: 100%;
+  background: #FEC63E;
+  padding: 20px 0;
+}
