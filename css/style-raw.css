@@ -426,10 +426,11 @@ img {
 .antibot {
   position: absolute;
   visibility: hidden;
-  height: 0px;
+  height: 0;
 }
 
 /* form */
+
 #form-erro {
   color: #f64540;
 }
