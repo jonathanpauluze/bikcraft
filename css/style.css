@@ -421,3 +421,20 @@ img {
   transform: none;
   transition: transform .8s, opacity .8s;
 }
+
+/* antibot */
+.antibot {
+  position: absolute;
+  visibility: hidden;
+  height: 0;
+}
+
+/* form */
+
+#form-erro {
+  color: #f64540;
+}
+
+#form-sucesso {
+  color: #31aa39;
+}
